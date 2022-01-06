@@ -9,7 +9,7 @@ goal_setup-workflow() {
 
 goal_build-dev-container() {
   pushd "${script_dir}" > /dev/null
-    docker build -t data-derp .
+    docker pull ghcr.io/data-derp/dev-container:master
   popd > /dev/null
 }
 

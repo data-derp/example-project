@@ -1,7 +1,5 @@
 {
-    // "context": "..",
-    // "dockerFile": "../Dockerfile",
-    "image": "data-derp",
+    "image": "ghcr.io/data-derp/dev-container:master",
     "extensions": [
         "ms-python.python",
         "ms-python.vscode-pylance",
